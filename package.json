@@ -8,5 +8,11 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.6.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
 }
