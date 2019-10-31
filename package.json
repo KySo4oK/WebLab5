@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "eslint index.js",
+    "prettier": "prettier --config .prettierrc.json --write index.js",
+    "precommit": "npm run prettier",
+    "prepush": "npm run test",
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
