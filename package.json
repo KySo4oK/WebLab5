@@ -20,7 +20,8 @@
   },
   "dependencies": {
     "express": "^4.17.1",
-    "ejs": "latest"
+    "ejs": "latest",
+    "body-parser": "latest"
   },
   "precommit":"npm run prettier",
   "prepush": "call npm run lint && call npm run test"
