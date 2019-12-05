@@ -13,11 +13,11 @@ app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 
 app.get('/', function (req, res) {
-    res.sendFile(__dirname + '/index.html');
+    res.sendFile(__dirname + '/views/index.html');
 });
 
 app.get('/about', function (req, res) {
-    res.sendFile(__dirname + '/about.html');
+    res.sendFile(__dirname + '/views/about.html');
 });
 
 app.get('/students', function (req, res) {
