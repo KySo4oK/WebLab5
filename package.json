@@ -19,7 +19,8 @@
     "prettier": "1.18.2"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "ejs": "latest"
   },
   "precommit":"npm run prettier",
   "prepush": "call npm run lint && call npm run test"
