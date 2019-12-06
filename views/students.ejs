@@ -11,6 +11,7 @@
     <li class="list-group-item"><a href="/">Main Page</a></li>
     <li class="list-group-item"><a href="/about">About Page</a></li>
     <li class="list-group-item"><a href="/students">List of Students</a></li>
+    <li class="list-group-item"><a href="/add">Add new Student</a></li>
 </ul>
     <p>
         Current list of students
@@ -18,7 +19,7 @@
     <ol>
         <% array.students.forEach(function (item) {%>
             <li>
-                <%= item.last %>
+                <a href="<%= '/student/' + array.students.indexOf(item)%>"><%= item.last %></a>
             </li>
         <%});%>
     </ol>
