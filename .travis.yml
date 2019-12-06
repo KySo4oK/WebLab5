@@ -5,6 +5,7 @@ script: npm test
 notifications:
   email: false
 deploy:
+    app: basicnodejs
     provider: heroku
     api_key:
       secure: a21f449b-ded9-49b8-86f7-7dbe24b429be
